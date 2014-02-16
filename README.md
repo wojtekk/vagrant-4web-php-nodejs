@@ -1,19 +1,41 @@
-# Quiz TVP
+# Vagrant-4web-php-node
 
-## Środowisko programisty - Vagrant
+Vagrant for web developer with PHP and NodeJS.
 
-[VirtualBox](http://www.virtualbox.org/)
-[Vagrant](http://www.vagrantup.com/).
+## Requirements
 
-IP: 192.168.56.111
+* [VirtualBox](http://www.virtualbox.org/)
+* [Vagrant](http://www.vagrantup.com/).
 
-Host: example.dev
+Suggested Vagrant plugins:
 
-### Provisioning
+* [vagrant-vbguest](https://github.com/dotless-de/vagrant-vbguest)
+* [vagrant-librarian-chef](https://github.com/jimmycuadra/vagrant-librarian-chef) - only for linux users
 
-Chef-solo.
+## Default configuration
 
-`Cheffile`.
+* Default IP: @192.168.56.111@
+* Default vhost: @example.dev@
 
-vagrant-librarian-chef
-vagrant-vbguest
+## Apache virtual hosts
+
+To define virtual hosts edit @Vagrantfile@
+
+## Software
+
+* Apache2
+* PHP
+* Composer
+
+* Git
+* Git Flow
+* Subversion
+
+* NodeJS
+* NPM
+
+* vim
+
+* Ruby
+* RubyGems
+* SASS
