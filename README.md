@@ -1,6 +1,6 @@
-# Vagrant-4web-php-node
+# Vagrant-4web-php-nodejs
 
-Vagrant for web developer with PHP and NodeJS.
+Vagrant for web developers with PHP and NodeJS.
 
 ## Requirements
 
