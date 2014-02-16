@@ -1,11 +1,14 @@
-# Vagrant-4web-php-nodejs
+Vagrant-4web-php-nodejs
+=======================
 
 Vagrant for web developers with PHP and NodeJS.
 
 ## Requirements
 
+Requirements:
+
 * [VirtualBox](http://www.virtualbox.org/)
-* [Vagrant](http://www.vagrantup.com/).
+* [Vagrant](http://www.vagrantup.com/)
 
 Suggested Vagrant plugins:
 
@@ -14,12 +17,12 @@ Suggested Vagrant plugins:
 
 ## Default configuration
 
-* Default IP: @192.168.56.111@
-* Default vhost: @example.dev@
+* Default IP: `192.168.56.111`
+* Default vhost: `example.dev`
 
 ## Apache virtual hosts
 
-To define virtual hosts edit @Vagrantfile@
+To define virtual hosts edit `Vagrantfile`
 
 ## Software
 
