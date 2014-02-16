@@ -1,0 +1,22 @@
+# encoding: utf-8
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook "apt"
+cookbook "php", {}
+cookbook "vim", {}
+cookbook "apache2", {}
+cookbook "vhost",
+  :github => "wojtekk/vhosts"
+cookbook "git", {}
+cookbook "composer",
+  :github => "escapestudios-cookbooks/composer"
+cookbook "subversion", {}
+cookbook "chef-git-flow",
+  :github => "batdevis/chef-git-flow"
+cookbook "nodejs", 
+  :github => "mdxp/nodejs-cookbook"
+cookbook "ruby", {}
+cookbook "rubygems", {}
+cookbook "opscode-chef-cookbook-sass",
+  :github => "jtgraphic/opscode-chef-cookbook-sass"
