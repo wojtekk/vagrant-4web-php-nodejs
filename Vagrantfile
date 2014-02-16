@@ -48,7 +48,7 @@ Vagrant.configure("2") do |config|
 
     chef.json = {
       :apache2 => {
-        :contact              => "wojciech.krawczyk@firma.interia.pl",
+        :contact              => "wojtekk@gmail.com",
         :timeout              => 30,
         :keepalive            => "On",
         :keepaliverequests    => 100,
